@@ -3,7 +3,7 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-const POLL_INTERVAL_MS = 700;
+const POLL_INTERVAL_MS = 400;
 
 type Counts = Record<string, number>;
 type Box = { class: string; bbox: [number, number, number, number] };
